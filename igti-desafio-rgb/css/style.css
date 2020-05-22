@@ -1,0 +1,132 @@
+body {
+    /*background-color: beige;*/
+    background-image: url('https://wallpapercave.com/wp/wp3194549.png');
+}
+
+
+.dados-cores {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 70px;
+    margin: auto;
+    border-style: dotted;
+    border-width: 1px;
+    padding: 20px;
+    align-items: center;
+    border-radius: 15px;
+}
+
+#boldText {
+    font-weight: bold;
+}
+
+#redNumber {
+    width: 25px;
+    text-align: center;
+}
+
+#greenNumber {
+    width: 25px;
+    text-align: center;
+}
+
+#blueNumber {
+    width: 25px;
+    text-align: center;
+}
+
+.rgbResult {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: auto;
+    margin-top: 10px;
+    border-style: dotted;
+    border-width: 1px;
+    padding: 20px;
+    align-items: center;
+    height: 70px;
+    border-radius: 15px;
+}
+
+.groupProjeto {
+    padding: 40px;
+    padding-top: 5px;
+    padding-bottom: 0px;
+    padding-right: 20px;
+    border-style: groove;
+    border-radius: 15px; /* esse ponto é responsável por deixar a borda da div arredondada */
+    box-shadow: 10px 10px 30px black; /* esse atributo é responsável por criar sompras em uma Div, sendo os valos (direita), (baixo), (blur). */
+    width: 500px;
+    height: 350px;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 100px;
+    background-color: white;
+}
+
+.titulo {
+    text-align: center;
+    font-family: helvetica;
+    font-weight: bold;
+}
+
+.assinatura {
+    text-align: right;
+}
+
+.groupInfos {
+    padding: 40px;
+    padding-top: 5px;
+    padding-bottom: 0px;
+    padding-right: 20px;
+    border-style: groove;
+    border-radius: 15px; /* esse ponto é responsável por deixar a borda da div arredondada */
+    box-shadow: 10px 10px 30px black; /* esse atributo é responsável por criar sompras em uma Div, sendo os valos (direita), (baixo), (blur). */
+    width: 500px;
+    height: 300px;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 50px;
+    background-color: white;
+    
+}
+
+#personalPhoto {
+    border-radius: 100px;   
+    width: 100px;
+    margin: auto;
+}
+
+.personalPhoto {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+}
+
+.groupDados {
+    width: 400px;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    border-style: dotted;
+    border-width: 1px;
+    border-radius: 10px;
+}
+
+.personalData {
+    margin-left: 20px;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-family: monospace;
+    font-size: 15px;
+}
+
+#bold {
+    font-weight: bold;
+}

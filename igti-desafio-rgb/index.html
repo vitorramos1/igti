@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    
+    
+
+    <title>Desafio RGB - IGTI</title>
+</head>
+<body>
+    <div class="groupProjeto">
+        <h1 class='titulo'>RGB Color Select</h1>
+     <div class="dados-cores">
+               <div class="coloSpace">
+                 <label for='redRange' id="boldText">(R) Vermelho</label>
+                 <input type="range" id="redRange" min="0" max="255" value="85">
+                <input id="redNumber" disabled value="85">
+            </div> 
+
+             <div class="coloSpace">
+                  <label for='greenRange'id="boldText">(G) Verde</label>
+                      <input type="range" id="greenRange" min="0" max="255" value="0">
+                     <input id="greenNumber" disabled value="0">
+                 </div>
+
+             <div class="coloSpace">
+                  <label for='blueRange'id="boldText">(B) Azul</label>
+                  <input type="range" id="blueRange" min="0" max="255" value="255">
+                  <input id="blueNumber" disabled value="255">
+              </div>
+        </div>
+
+         <div class="rgbResult"> </div>
+
+    </div>
+
+    <div class="groupInfos">
+
+        <h1 class="titulo">Informações de contato</h1>
+        <div class="groupDados">
+            <div class="personalPhoto">
+                <img src="./img/Eu.jpeg" id="personalPhoto">
+            </div>
+
+            <div class="personalData">
+                <p> <span id="bold"> Nome:</span> Vitor Ramos</p>
+                <p> <span id="bold"> Tel:</span> (11) 99840-9754</p>
+                <p> <span id="bold"> e-mail:</span> vitor@idwall.co</p>
+                <a href="https://www.linkedin.com/in/vitor-ramos-growth/"> Linkedin</a> <span id="bold">|</span> <a href="https://idwall.co">idwall</a>
+            </div>
+        </div>
+    
+    
+    </div>
+
+<script src="./js/script.js"></script>    
+</body>
+</html>
